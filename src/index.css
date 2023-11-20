@@ -1,0 +1,41 @@
+:root {
+  --c-gray-1: #fcfcfd;
+  --c-gray-2: #f2f4f7;
+  --c-gray-3: #667085;
+  --c-gray-4: #475467;
+  --c-gray-5: #344054;
+
+  --c-white-1: #ffffff;
+  --c-blue-1: #daf1ff;
+  --c-blue-2: #e0f2fe;
+  --c-blue-3: #f8f9fc;
+  --c-blue-4: #36bffa;
+  --c-blue-5: #026aa2;
+  --c-blue-6: #f0f9ff;
+  --c-blue-7: #3f728d;
+
+  --c-purple-1: #bdb4fe;
+  --c-purple-2: #6938ef;
+
+  --c-green-1: #ecfdf3;
+  --c-green-2: #027a48;
+
+  --c-yellow-1: #fffaeb;
+  --c-yellow-2: #b54708;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+#root {
+  min-height: 100vh;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}

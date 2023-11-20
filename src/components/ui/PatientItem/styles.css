@@ -1,0 +1,33 @@
+.patient {
+  display: flex;
+  padding-bottom: 0.69rem;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--c-gray-2);
+}
+
+.patient:first-child {
+  padding-top: 1rem;
+}
+
+.patient:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+
+.patient-name {
+  color: var(--c-gray-4);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem; /* 142.857% */
+  white-space: nowrap;
+}
+
+.patient-caregiver-name {
+  color: var(--c-gray-3);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem; /* 142.857% */
+  white-space: nowrap;
+}

@@ -1,0 +1,40 @@
+.pill {
+  display: flex;
+  padding: 0.125rem 0.5rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  white-space: nowrap;
+}
+.md {
+  padding: 0.125rem 0.62rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem; /* 142.857% */
+}
+
+.sm {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.125rem; /* 150% */
+}
+
+.primary {
+  background-color: var(--c-gray-2);
+  color: var(--c-gray-5);
+}
+
+.success {
+  background-color: var(--c-green-1);
+  color: var(--c-green-2);
+}
+
+.warning {
+  background-color: var(--c-yellow-1);
+  color: var(--c-yellow-2);
+}
+
+.info {
+  background-color: var(--c-blue-6);
+  color: var(--c-blue-5);
+}

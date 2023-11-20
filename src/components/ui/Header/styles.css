@@ -1,0 +1,7 @@
+.header > h1 {
+  color: var(--c-gray-4);
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.375rem;
+  margin: 0;
+}

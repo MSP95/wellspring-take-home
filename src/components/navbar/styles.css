@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar > ul > li {
+  display: flex;
+}
+
+.link {
+  border-radius: 0.5rem;
+  display: flex;
+  padding: 0.75rem;
+  align-items: center;
+  gap: 1rem;
+  min-width: 9rem;
+
+  /* Text md/Bold */
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem; /* 150% */
+}
+
+.link {
+  text-decoration: none;
+  color: var(--c-gray-4);
+}
+
+.link-content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.link:hover {
+  background-color: var(--c-gray-2);
+}
+.link.active {
+  background-color: var(--c-blue-1);
+  color: var(--c-blue-7);
+}
